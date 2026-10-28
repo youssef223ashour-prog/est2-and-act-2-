@@ -26,9 +26,10 @@ const REASONS = {
   content: "I didn't know the content", misread: 'I misread the question', data: 'I misread the table or graph',
   calc: 'I made a calculation slip', time: 'I ran out of time', guess: 'I guessed'
 };
-const DEFAULT_CHAPTERS = ['Biochemistry', 'Cell Structure & Transport', 'Enzymes', 'Cellular Respiration', 'Photosynthesis',
-  'Cell Division', 'Classical Genetics', 'Molecular Genetics', 'Evolution', 'Ecology', 'Taxonomy & Diversity',
-  'Human Physiology', 'Plant Biology', 'Lab Skills & Data Analysis'];
+const DEFAULT_CHAPTERS = ['Biochemistry', 'The Cell', 'Cell Respiration', 'Photosynthesis', 'Cell Division',
+  'Classical Genetics', 'Molecular Genetics', 'Evolution', 'Taxonomy', 'Plants', 'Digestive System',
+  'Circulatory System', 'Immune System', 'Nervous System', 'Endocrine System', 'Reproductive System',
+  'Animal Behavior', 'Ecology', 'Lab Skills & Data Analysis'];
 // The six body-system chapters are grouped under one "Human Systems" tile in the
 // Classified Questions / Homework chapter pickers (see groupHumanSystems in app4.js).
 // They stay as separate rows in the real `chapters` table — this is UI-only grouping.
